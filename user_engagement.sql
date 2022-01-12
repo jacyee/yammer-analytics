@@ -5,3 +5,5 @@ FROM tutorial.yammer_events e
 WHERE e.event_type = 'engagement'
 GROUP BY 1
 ORDER BY 1 
+
+
