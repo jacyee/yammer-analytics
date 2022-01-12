@@ -1,9 +1,10 @@
 # yammer-analytics
 investigation of user engagement issue using users,events,emails table
 
--- weekly active user as engagement level
+# weekly active user as engagement level - high on weekday, low on weekend
 <br>
-<img width="1000" alt="image" src="https://user-images.githubusercontent.com/57039610/149190233-99991cb7-749c-4aeb-93ea-e51f59e7a7e2.png">
+<img width="764" alt="image" src="https://user-images.githubusercontent.com/57039610/149192764-3b982642-da1c-4214-839a-42efb8e31972.png">
+
 
 
 #chart
