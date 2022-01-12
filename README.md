@@ -1,5 +1,5 @@
 # yammer-analytics
-investigation of user engagement
+investigation of user engagement issue using users,events,emails table
 
 #chart 1
 <br>
