@@ -26,7 +26,7 @@ Data exploration
 #### 2. daily signups (by activated_at of users) 
 -> high on weekday, low on weekend, exhibit same pattern of engagement level rolling data
 <br>
-<img width="597" alt="image" src="https://user-images.githubusercontent.com/57039610/149296743-8b840191-4514-4a29-a3c4-ae60c6c3abc2.png">
+<img width="1000" alt="image" src="https://user-images.githubusercontent.com/57039610/149296743-8b840191-4514-4a29-a3c4-ae60c6c3abc2.png">
 
 #### 3. cohort user based on when user signup - newly sign ups OR existing users 
 ->  drop in engagement among users who signed up more than 10 weeks prior
