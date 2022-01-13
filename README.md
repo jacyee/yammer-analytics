@@ -4,13 +4,16 @@ Investigation of user engagement issue using users,events,emails table
 data schema
 <br>
 _users_
-<img width="341" alt="image" src="https://user-images.githubusercontent.com/57039610/149277702-cf3b6b57-cc6a-42ed-9f6c-ef85bc126ff2.png">
+<br>
+<img width="700" alt="image" src="https://user-images.githubusercontent.com/57039610/149277702-cf3b6b57-cc6a-42ed-9f6c-ef85bc126ff2.png">
 <br>
 _emails_
-<img width="341" alt="image" src="https://user-images.githubusercontent.com/57039610/149277804-a6f404b4-41ed-4804-9ff5-b7eeac079611.png">
+<br>
+<img width="700" alt="image" src="https://user-images.githubusercontent.com/57039610/149277804-a6f404b4-41ed-4804-9ff5-b7eeac079611.png">
 <br>
 _events_
-<img width="456" alt="image" src="https://user-images.githubusercontent.com/57039610/149277937-bd693aba-86f8-4d96-9ebc-7c14e1ab0189.png">
+<br>
+<img width="700" alt="image" src="https://user-images.githubusercontent.com/57039610/149277937-bd693aba-86f8-4d96-9ebc-7c14e1ab0189.png">
 
 
 
