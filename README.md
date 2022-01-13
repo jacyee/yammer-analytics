@@ -24,6 +24,7 @@ Data exploration
 
 #### 2. daily signups (by activated_at of users) - high on weekday, low on weekend, exhibit same pattern of engagement level
 <br>
-<img width="1000" alt="image" src="https://user-images.githubusercontent.com/57039610/149195884-7e0dc46b-50c4-40cb-8813-fa996b3518d8.png">
+<img width="780" alt="image" src="https://user-images.githubusercontent.com/57039610/149285866-b1058c0b-5821-4991-8ac0-d49724fb4c8b.png">
+
 
 #### 3. cohort user by 
