@@ -18,13 +18,15 @@ _events_
 
 Data exploration
 
-#### 1. daily active user as engagement level (by event_type = 'engagement') - high growth rate on weekday, low on weekend
+#### 1. daily active user as engagement level (by event_type = 'engagement')
+-> high growth rate on weekday, low on weekend
 <br>
 <img width="1000" alt="image" src="https://user-images.githubusercontent.com/57039610/149192764-3b982642-da1c-4214-839a-42efb8e31972.png">
 
-#### 2. daily signups (by activated_at of users) - high on weekday, low on weekend, exhibit same pattern of engagement level
+#### 2. daily signups (by activated_at of users) 
+-> high on weekday, low on weekend, exhibit same pattern of engagement level
 <br>
 <img width="780" alt="image" src="https://user-images.githubusercontent.com/57039610/149285866-b1058c0b-5821-4991-8ac0-d49724fb4c8b.png">
 
-
-#### 3. cohort user by 
+#### 3. cohort user based on when user signup - newly sign ups OR existing users 
+-> 
