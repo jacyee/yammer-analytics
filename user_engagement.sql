@@ -17,7 +17,7 @@ COUNT(case when activated_at is not null THEN u.user_id else null end) as activa
 -- engagement retention rate by user age cohort from sign up
 SELECT DATE_TRUNC('week',t.occurred_at) AS "week",
         AVG(t.event_age) AS "Average event age",
-       COUNT(DISTINCT CASE WHEN t.user_age > 70 THEN t.user_id ELSE NULL END) AS "10+ weeks",
+       COUNT(DISTINCT CASE WHEN t.user_age > 70 THEN t.user_id ELSE NULL END) AS ">10 weeks",
        COUNT(DISTINCT CASE WHEN t.user_age < 70 AND t.user_age >= 63 THEN t.user_id ELSE NULL END) AS "9 weeks",
        COUNT(DISTINCT CASE WHEN t.user_age < 63 AND t.user_age >= 56 THEN t.user_id ELSE NULL END) AS "8 weeks",
        COUNT(DISTINCT CASE WHEN t.user_age < 56 AND t.user_age >= 49 THEN t.user_id ELSE NULL END) AS "7 weeks",
@@ -27,7 +27,7 @@ SELECT DATE_TRUNC('week',t.occurred_at) AS "week",
        COUNT(DISTINCT CASE WHEN t.user_age < 28 AND t.user_age >= 21 THEN t.user_id ELSE NULL END) AS "3 weeks",
        COUNT(DISTINCT CASE WHEN t.user_age < 21 AND t.user_age >= 14 THEN t.user_id ELSE NULL END) AS "2 weeks",
        COUNT(DISTINCT CASE WHEN t.user_age < 14 AND t.user_age >= 7 THEN t.user_id ELSE NULL END) AS "1 week",
-       COUNT(DISTINCT CASE WHEN t.user_age < 7 THEN t.user_id ELSE NULL END) AS "Less than a week"
+       COUNT(DISTINCT CASE WHEN t.user_age < 7 THEN t.user_id ELSE NULL END) AS "<1 week"
   FROM (
         SELECT e.occurred_at,
                u.user_id,
@@ -45,5 +45,6 @@ SELECT DATE_TRUNC('week',t.occurred_at) AS "week",
  GROUP BY 1
  ORDER BY 1
  limit 50
+
 
 
