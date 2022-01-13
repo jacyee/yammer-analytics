@@ -23,11 +23,7 @@ SELECT DATE_TRUNC('week',t.occurred_at) AS "week",
        COUNT(DISTINCT CASE WHEN t.user_age < 56 AND t.user_age >= 49 THEN t.user_id ELSE NULL END) AS "7 weeks",
        COUNT(DISTINCT CASE WHEN t.user_age < 49 AND t.user_age >= 42 THEN t.user_id ELSE NULL END) AS "6 weeks",
        COUNT(DISTINCT CASE WHEN t.user_age < 42 AND t.user_age >= 35 THEN t.user_id ELSE NULL END) AS "5 weeks",
-       COUNT(DISTINCT CASE WHEN t.user_age < 35 AND t.user_age >= 28 THEN t.user_id ELSE NULL END) AS "4 weeks",
-       COUNT(DISTINCT CASE WHEN t.user_age < 28 AND t.user_age >= 21 THEN t.user_id ELSE NULL END) AS "3 weeks",
-       COUNT(DISTINCT CASE WHEN t.user_age < 21 AND t.user_age >= 14 THEN t.user_id ELSE NULL END) AS "2 weeks",
-       COUNT(DISTINCT CASE WHEN t.user_age < 14 AND t.user_age >= 7 THEN t.user_id ELSE NULL END) AS "1 week",
-       COUNT(DISTINCT CASE WHEN t.user_age < 7 THEN t.user_id ELSE NULL END) AS "<1 week"
+       COUNT(DISTINCT CASE WHEN t.user_age < 7 THEN t.user_id ELSE NULL END) AS "<5 week"
   FROM (
         SELECT e.occurred_at,
                u.user_id,
@@ -45,6 +41,3 @@ SELECT DATE_TRUNC('week',t.occurred_at) AS "week",
  GROUP BY 1
  ORDER BY 1
  limit 50
-
-
-
