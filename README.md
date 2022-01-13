@@ -28,8 +28,8 @@ Data exploration
 <br>
 <img width="1000" alt="image" src="https://user-images.githubusercontent.com/57039610/149296743-8b840191-4514-4a29-a3c4-ae60c6c3abc2.png">
 
-#### 3. cohort user based on when user signup - newly sign ups OR existing users 
-->  drop in engagement among users who signed up for more than 10 weeks
+#### 3. cohort user based on when user signup - newly sign ups VS existing users 
+->  more significant drop in engagement among existing users who signed up for more than 10 weeks
 <br>
 <img width="1000" alt="image" src="https://user-images.githubusercontent.com/57039610/149336388-dd78a4bb-7fc6-47e8-a604-64627e729890.png">
 
