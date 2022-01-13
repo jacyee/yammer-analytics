@@ -1,6 +1,5 @@
 # yammer-analytics
 Investigation of user engagement issue using Yammer dataset - _users,events,emails_
-<hr>
 
 data schema
 <br>
@@ -16,8 +15,9 @@ _events_
 <br>
 <img width="700" alt="image" src="https://user-images.githubusercontent.com/57039610/149277937-bd693aba-86f8-4d96-9ebc-7c14e1ab0189.png">
 
-<hr>
+
 Data exploration
+<hr>
 #### 1. daily active user as engagement level (by event_type = 'engagement') - high growth rate on weekday, low on weekend
 <br>
 <img width="1000" alt="image" src="https://user-images.githubusercontent.com/57039610/149192764-3b982642-da1c-4214-839a-42efb8e31972.png">
