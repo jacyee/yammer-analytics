@@ -39,3 +39,5 @@ Data exploration
 
 #### 5. engagement of user by email action type
 -> more steep drop in weekly email
+<img width="1000" alt="image" src="https://user-images.githubusercontent.com/57039610/149610088-a1438228-09d6-43aa-b7f0-a345647116bd.png">
+
