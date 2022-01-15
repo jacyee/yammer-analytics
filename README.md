@@ -31,7 +31,7 @@ Data exploration
 #### 3. cohort user based on when user signup - newly sign ups VS existing users 
 ->  more significant drop in engagement among existing users who signed up for more than 10 weeks
 <br>
-<img width="1000" alt="image" src="https://user-images.githubusercontent.com/57039610/149336388-dd78a4bb-7fc6-47e8-a604-64627e729890.png">
+<img width="500" alt="image" src="https://user-images.githubusercontent.com/57039610/149336388-dd78a4bb-7fc6-47e8-a604-64627e729890.png">
 
 #### 4. engagement of user by device type
 -> more significant drop among existing long-time mobile users
