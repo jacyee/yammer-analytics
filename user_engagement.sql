@@ -61,7 +61,7 @@ SELECT DATE_TRUNC('week', occurred_at) AS week,
 LIMIT 100
 
  -- engagement of user by email action type
-SELECT DATE_TRUNC('week', occurred_at) AS week,
+SELECT DATE_TRUNC('month', occurred_at) AS month,
        COUNT(CASE WHEN e.action = 'sent_weekly_digest' THEN e.user_id ELSE NULL END) AS weekly_email,
        COUNT(CASE WHEN e.action = 'sent_reengagement_email' THEN e.user_id ELSE NULL END) AS reengagement_email,
        COUNT(CASE WHEN e.action = 'email_open' THEN e.user_id ELSE NULL END) AS email_open,
@@ -72,4 +72,3 @@ SELECT DATE_TRUNC('week', occurred_at) AS week,
  GROUP BY 1
  ORDER BY 1
  
-
