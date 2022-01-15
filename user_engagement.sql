@@ -73,6 +73,7 @@ SELECT DATE_TRUNC('month', occurred_at) AS month,
  ORDER BY 1
  
  
+ 
  -- user retention by weekly email open & CTR rate
 SELECT week,
        weekly_opens/CASE WHEN weekly_emails = 0 THEN 1 ELSE weekly_emails END::FLOAT AS weekly_open_rate,
