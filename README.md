@@ -33,6 +33,9 @@ Data exploration
 <br>
 <img width="1000" alt="image" src="https://user-images.githubusercontent.com/57039610/149336388-dd78a4bb-7fc6-47e8-a604-64627e729890.png">
 
+#### 4. segment by email type
+
+
 #### 4. engagement of user by device type
 -> more significant drop among existing mobile users
 <img width="1000" alt="image" src="https://user-images.githubusercontent.com/57039610/149561149-55390211-f46e-4ba4-978b-67778693395f.png">
