@@ -38,7 +38,7 @@ Data exploration
 <img width="1000" alt="image" src="https://user-images.githubusercontent.com/57039610/149561149-55390211-f46e-4ba4-978b-67778693395f.png">
 
 #### 5. engagement of user by email action type (email sent, open, CTR)
--> steepset drop in CTR of emails
+-> steepset drop in CTR of emails for digest emails to mobile apps
 <img width="1000" alt="image" src="https://user-images.githubusercontent.com/57039610/149611048-08b907b2-20f8-4b65-ba6f-394a2a694aea.png">
 
 
