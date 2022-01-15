@@ -38,6 +38,6 @@ Data exploration
 <img width="1000" alt="image" src="https://user-images.githubusercontent.com/57039610/149561149-55390211-f46e-4ba4-978b-67778693395f.png">
 
 #### 5. engagement of user by email action type (email sent, open, CTR)
--> more steep drop in CTR of emails
-<img width="1000" alt="image" src="https://user-images.githubusercontent.com/57039610/149610811-7ea4f8d8-45f5-431f-b2ae-91adfcc85d01.png">
+-> steepset drop in CTR of emails
+<img width="500" alt="image" src="https://user-images.githubusercontent.com/57039610/149610811-7ea4f8d8-45f5-431f-b2ae-91adfcc85d01.png">
 
