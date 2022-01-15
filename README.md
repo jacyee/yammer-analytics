@@ -41,4 +41,7 @@ Data exploration
 -> steepset drop in CTR of emails for digest emails to mobile apps -> potential problem area to look into
 <img width="1000" alt="image" src="https://user-images.githubusercontent.com/57039610/149611048-08b907b2-20f8-4b65-ba6f-394a2a694aea.png">
 
+#### 6. engagement of user by email open rate & CTR
+<img width="1000" alt="image" src="https://user-images.githubusercontent.com/57039610/149631509-b955df82-3f00-4ea8-8ca1-66f36907360b.png">
+
 
