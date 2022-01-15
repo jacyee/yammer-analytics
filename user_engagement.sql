@@ -67,5 +67,9 @@ SELECT DATE_TRUNC('week', occurred_at) AS week,
        COUNT(CASE WHEN e.action = 'email_open' THEN e.user_id ELSE NULL END) AS email_open,
        COUNT(CASE WHEN e.action = 'email_clickthrough' THEN e.user_id ELSE NULL END) AS email_clickthrough
   FROM tutorial.yammer_emails e
+  where e.occurred_at >= '2014-05-01'
+           AND e.occurred_at < '2014-09-01'
  GROUP BY 1
  ORDER BY 1
+ 
+
