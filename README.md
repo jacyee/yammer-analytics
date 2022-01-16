@@ -50,7 +50,8 @@ A/B test analysis (hypothesis testing) of user experience/ behaviour based on fe
 
 
 _Experiment_ data
-<img width="426" alt="image" src="https://user-images.githubusercontent.com/57039610/149659242-90de068a-fed2-459a-ba55-728aa3a1e972.png">
+<br>
+<img width="500" alt="image" src="https://user-images.githubusercontent.com/57039610/149659242-90de068a-fed2-459a-ba55-728aa3a1e972.png">
 
 #### 1. average message sent
 
