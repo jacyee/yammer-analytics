@@ -105,3 +105,9 @@ SELECT DATE_TRUNC('week',e1.occurred_at) AS week,
  GROUP BY 1
        ) a
  ORDER BY 1
+
+
+--A/B test beteween treatment and control group 
+--average number of user messages sent
+
+-- login frequency average of logins per user
