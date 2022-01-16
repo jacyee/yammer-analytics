@@ -53,5 +53,5 @@ _Experiment_ data
 <br>
 <img width="500" alt="image" src="https://user-images.githubusercontent.com/57039610/149659242-90de068a-fed2-459a-ba55-728aa3a1e972.png">
 
-#### 1. average message sent
+#### 1. average message sent 
 
