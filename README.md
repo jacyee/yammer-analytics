@@ -46,7 +46,7 @@ Data exploration
 
 <hr>
 
-A/B test analysis
+A/B test analysis of user behaviour based on feature experiment
 
-#### average message sent
+#### 1. average message sent
 
