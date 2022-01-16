@@ -172,6 +172,6 @@ SELECT ex.experiment,
     ON nd.score = ABS(ROUND((c.average - c.control_average)/SQRT((c.variance/c.users) + (c.control_variance/c.control_users)),3))
 -- login frequency /average of logins per user
 
--- average engaged days per user
+-- average days engaged per user
 
 
