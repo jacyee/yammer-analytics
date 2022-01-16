@@ -109,7 +109,7 @@ SELECT DATE_TRUNC('week',e1.occurred_at) AS week,
 
 
 
--- A/B test beteween treatment and control group for feature evaludation
+-- A/B test beteween treatment and control group for feature evaluation
 
 -- average number of user messages sent
 SELECT c.experiment,
