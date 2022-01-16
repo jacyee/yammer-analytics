@@ -44,4 +44,9 @@ Data exploration
 #### 6. engagement of user by email open rate & CTR
 <img width="1000" alt="image" src="https://user-images.githubusercontent.com/57039610/149631509-b955df82-3f00-4ea8-8ca1-66f36907360b.png">
 
+<hr>
+
+A/B test analysis
+
+#### average message sent
 
