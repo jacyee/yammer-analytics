@@ -55,3 +55,5 @@ _Experiment_ data
 
 #### 1. average message sent 
 
+#### 2. average login per user
+
