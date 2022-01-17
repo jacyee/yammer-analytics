@@ -53,9 +53,13 @@ _Experiment_ data
 <br>
 <img width="700" alt="image" src="https://user-images.githubusercontent.com/57039610/149659242-90de068a-fed2-459a-ba55-728aa3a1e972.png">
 
+Explore metrics
 #### 1. average message sent 
 <img width="800" alt="image" src="https://user-images.githubusercontent.com/57039610/149758562-d73c6b1a-7115-40c8-b380-68c91ee773f1.png">
 
 #### 2. average login per user
 #### 3. average days engaged
+
+cohort users by:
+new vs. existing users for novelty effect, usage by device, usage by user type (i.e., content producers vs. readers)
 
