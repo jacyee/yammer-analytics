@@ -46,7 +46,7 @@ Data exploration
 
 <hr>
 
-A/B test analysis (hypothesis testing) of user experience/ behaviour based on feature experiment, whether certain functionality is worth working on with priority, user experience of new feature development & improvement recommendation
+A/B test analysis (hypothesis testing & validation of change) of user experience/ behaviour based on feature experiment, whether certain functionality is worth working on with priority, user experience of new feature development & improvement recommendation
 
 
 _Experiment_ data
