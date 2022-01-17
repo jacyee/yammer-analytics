@@ -51,9 +51,10 @@ A/B test analysis (hypothesis testing) of user experience/ behaviour based on fe
 
 _Experiment_ data
 <br>
-<img width="500" alt="image" src="https://user-images.githubusercontent.com/57039610/149659242-90de068a-fed2-459a-ba55-728aa3a1e972.png">
+<img width="700" alt="image" src="https://user-images.githubusercontent.com/57039610/149659242-90de068a-fed2-459a-ba55-728aa3a1e972.png">
 
 #### 1. average message sent 
+<img width="1000" alt="image" src="https://user-images.githubusercontent.com/57039610/149758562-d73c6b1a-7115-40c8-b380-68c91ee773f1.png">
 
 #### 2. average login per user
 
