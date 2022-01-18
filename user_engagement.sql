@@ -107,8 +107,6 @@ SELECT DATE_TRUNC('week',e1.occurred_at) AS week,
  ORDER BY 1
 
 
-
-
 -- A/B test beteween treatment group and control group for feature evaluation
 
 -- Average Messages Sent per Existing Users
@@ -120,7 +118,7 @@ SELECT c.experiment,
        c.total,
        ROUND(c.average,4)::FLOAT AS average,
        ROUND(c.average - c.control_average,4) AS rate_difference,
-       ROUND((c.average - c.control_average)/c.control_average,4) AS rate_lift,
+       ROUND((c.average - c.control_average)/c.average,4) AS rate_lift,
        ROUND(c.stdev,4) AS stdev,
        ROUND((c.average - c.control_average) /
           SQRT((c.variance/c.users) + (c.control_variance/c.control_users))
@@ -158,10 +156,11 @@ SELECT ex.experiment,
        ) ex
   JOIN tutorial.yammer_users u
     ON u.user_id = ex.user_id
+   AND u.activated_at < '2014-06-01'
   JOIN tutorial.yammer_events e
     ON e.user_id = ex.user_id
    AND e.occurred_at >= ex.occurred_at
-   AND e.occurred_at < '2014-07-01'
+   AND e.occurred_at <= '2014-07-01'
    AND e.event_type = 'engagement'
  GROUP BY 1,2,3,4,5
        ) a
