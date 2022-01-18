@@ -46,6 +46,15 @@ Data exploration
 
 <hr>
 
+Evaluate Search Functionality Usage - % of Session with Search Runs and Autocompletes
+
+<img width="373" alt="image" src="https://user-images.githubusercontent.com/57039610/149963730-a933a345-cb29-4626-b7de-4a249f913b06.png">
+
+
+
+
+
+<hr>
 A/B test analysis (hypothesis testing & validation of change, split into control VS treatment test group) of user experience/ behaviour based on feature experiment, whether certain functionality is worth working on with priority, user experience of new feature development & improvement recommendation
 
 
@@ -62,4 +71,5 @@ Explore metrics
 
 cohort users by:
 new vs. existing users for novelty effect, usage by device, usage by user type (i.e., content producers vs. readers)
+
 
