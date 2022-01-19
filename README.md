@@ -46,7 +46,7 @@ Data exploration
 
 <hr>
 
-Evaluate Search Functionality Usage - % of Session with Search Runs and Autocompletes
+Evaluate Search Functionality Usage - % of Session with Search Runs and Autocompletes - autocomplete per session
 
 <img width="1000" alt="image" src="https://user-images.githubusercontent.com/57039610/149963730-a933a345-cb29-4626-b7de-4a249f913b06.png">
 
